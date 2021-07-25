@@ -1,5 +1,6 @@
-This is the Pronet ANN Alpha 2.0, an easy to use lightweight machine learning algoritim for microcontrollers.
-[Release log](https://github.com/PronetAI/Artifical-nueral-network/blob/main/Release-logs.md).
+# Pronet ANN Alpha 2.0
+This is the Pronet ANN an easy to use lightweight machine learning algoritim for microcontrollers.
+Here is our release log for the Pronet ANN: [Release log](https://github.com/PronetAI/Artifical-nueral-network/blob/main/Release-logs.md).
 
 ## Installation
 To install is module, enter the following on your terminal inside an project folder.
@@ -48,6 +49,7 @@ const byte Input[PatternCount][Input_Nodes] =
   { 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 0, 0, 1, 1 }}; 
 ```
 We can add or remove values by simply editing the array.
+
 **NOTE: THE NUMBER OF SINGLE BINARY DIGITS IN EACH ELEMENT OF THE ARRAY MUST MATCH THE NUMBER OF INPUT NODES**
 
 ### Input node array
@@ -61,6 +63,7 @@ const byte Target[PatternCount][Output_Nodes] =
   { 1, 0, 0, 0 }, { 1, 0, 0, 1 }};
 ```
 We can also change this by altering the arrays elements.
+
 **NOTE: THE NUMBER OF SINGLE BINARY DIGITS IN EACH ELEMENT OF THE ARRAY MUST MATCH THE NUMBER OF OUTPUT NODES**
 
 ### Setup loop
@@ -71,5 +74,7 @@ void setup(){ Serial.begin(9600); Print_Time = 1;}
 Here we can change at how many bytes per second the serial monitor will output the information, and how much time it takes to output one piece of information
 
 *We are not responible if any of your hardware is damaged during the activity of this program. We are put the suggested hardware in order to run this application. Speeds of processing varies from device to device.*
+
 *We do not have any affiliation with the Arduino company nor is this sponsored by them.*
+
 *COPYRGIHT PRONETAI 2021*
