@@ -1,5 +1,5 @@
 # Pronet ANN Alpha 2.0
-This is the Pronet ANN an easy to use lightweight machine learning algoritim for microcontrollers.
+This is the Pronet ANN an easy to use lightweight machine learning algoritim for microcontrollers. Traditionaly you would install a heavy machine learning module that is 0.5 GB ( Tensorflow ), and they only run on CPU's, but now you can take a module that is only a few Kilobytes, and run oit on microcontrollers as well!
 Here is our release log for the Pronet ANN: [Release log](https://github.com/PronetAI/Artifical-nueral-network/blob/main/Release-logs.md).
 
 ## Installation
