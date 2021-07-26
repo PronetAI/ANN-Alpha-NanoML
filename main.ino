@@ -73,9 +73,13 @@ void loop (){for( i = 0 ; i < Hidden_Nodes ; i++ ) {  // A for loop to iterate t
     if (Print_Time == 0) {Serial.println(); Serial.print ("  *Error* Margin = "); Serial.print(Error, 20); Show_on_shell();
       if (TrainingCycle==1){Print_Time = 999;} else {Print_Time = 1000;}} if( Error < Success ) break ;}
   Show_on_shell(); Serial.println (); Serial.println (); Print_Time = 1;}
+//The show on shell function is the function that we use to display and output the information onto the serial monitor, it is counted as a void
 void Show_on_shell()
+ //Here we are cycling through the array of input sets in order to one by one print them out
  {for( p = 0 ; p < PatternCount ; p++ ) { Serial.println(); Serial.print ("  Input ");
+    //In here we are cycling through the array of target sets for the network
     for( i = 0 ; i < Input_Nodes ; i++ ) {Serial.print (Input[p][i], DEC);Serial.print (" ");} Serial.print ("  Target ");
+    //And the rest for these loops are just printing the networks outputs and the different variables such as the error margin
     for( i = 0 ; i < Output_Nodes ; i++ ) {Serial.print (Target[p][i], DEC); Serial.print (" ");}
     for( i = 0 ; i < Hidden_Nodes ; i++ ) {Accumalation = HiddenWeights[Input_Nodes][i];
     for( j = 0 ; j < Input_Nodes ; j++ ) {Accumalation += Input[p][j] * HiddenWeights[j][i] ;} Hidden[i] = 1.0/(1.0 + exp(-Accumalation)) ;}
