@@ -1,5 +1,5 @@
 # Pronet ANN Alpha 2.0.1
-This is the Pronet ANN an easy to use lightweight machine learning algoritim for microcontrollers. Traditionaly you would install a heavy machine learning module that is 0.5 GB ( Tensorflow ), and they only run on CPU's, but now you can take a module that is only a few Kilobytes, and run oit on microcontrollers as well!
+This is the Pronet ANN, an easy to use, lightweight machine learning algoritim for microcontrollers. Traditionaly, you would install a heavy machine learning module that is around 0.5 GB ( Tensorflow ), and they only run on a CPU. But now you can take a module that is only a few Kilobytes, and run it on microcontrollers as well!
 
 Here is our release log for the Pronet ANN: [Release log](https://github.com/PronetAI/Artifical-nueral-network/blob/main/Release-logs.md).
 
@@ -11,7 +11,7 @@ $ git clone https://github.com/Pronet/Artifical-nueral-network.git
 The code of this moudle is inside the `main.ino` file. You will run the code there per your requirments and settings. 
 
 ## Hardware
-For this application we recomend for the best performence, an Arduino Nano 33 BLE Sense. THis is because due to the very powerful processor and enchanced AI Capabilites, it is perfect to run this application. In general, any microcontroller will work for this project BUT some of them are very slow and it will take a long time to run this application. Below we have a list of the microcontrollers fit for the job, and microcontrollers that are not good for this application.
+For this application we recomend for the best performence, an Arduino Nano 33 BLE Sense. This is because due to the very powerful processor and enchanced AI Capabilites, it is perfect to run this application. In general, any microcontroller will work for this project BUT some of them are very slow and it will take a long time to run this application. Below we have a list of the microcontrollers fit for the job, and microcontrollers that are not good for this application.
 
 ### Good Speed microcontrollers
 * Arduino Nano 33 BLE(Sense)
