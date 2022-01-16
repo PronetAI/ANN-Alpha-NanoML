@@ -1,4 +1,4 @@
-// Author Vihaan Mehta 2021
+// Author Vihaan Mehta 2022
 /*These the the Intizialing parmeters for the network to function*/
 // Importing the math library in order to perform the complex mathimatical functions 
 #include <math.h>
