@@ -78,4 +78,4 @@ Here we can change at how many bytes per second the serial monitor will output t
 
 *We do not have any affiliation with the Arduino company nor is this sponsored by them.*
 
-*COPYRGIHT PRONETAI 2021*
+*COPYRGIHT PRONETAI 2022*
