@@ -11,3 +11,7 @@ These are some of the recomended microcontrollers that you use to run the ANN on
 
 ### ANN Alpha 2.0.1
 There is a more improved documentation for people to use and understand the code
+
+
+### ANN Alpha 2.1.1
+Now the ANN-Alpha is written in Python aming a nueral network from scratch being implemented in python.
