@@ -4,7 +4,7 @@ This is the Pronet ANN, an easy to use, lightweight machine learning algoritim f
 Here is our release log for the Pronet ANN: [Release log](https://github.com/PronetAI/Artifical-nueral-network/blob/main/Release-logs.md).
 
 ## Installation
-To install is module, enter the following on your terminal inside an project folder.
+To install the module, enter the following on your terminal inside an project folder.
 ```
 $ git clone https://github.com/Pronet/Artifical-nueral-network.git
 ```
